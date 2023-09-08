@@ -10,7 +10,7 @@ def isLeapYear(year):
 
 year = int(input("Enter a year : "))
 
-if (isLeapYear):
+if isLeapYear(year):
   print("{} is a leap year.".format(year))
 else:
   print("{} is Not a leap year.".format(year))
